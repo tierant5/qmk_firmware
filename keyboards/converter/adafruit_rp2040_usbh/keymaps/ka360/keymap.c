@@ -67,7 +67,7 @@ LCTL_T(KC_ESC),    KC_A,    KC_S,    KC_D,    KC_F,  KC_G,                    KC
 	     KC_NO,      KC_NO,     KC_NO,      KC_NO,      KC_NO,    KC_NO,           KC_NO,      KC_NO,      KC_NO,      KC_NO,           KC_NO,   KC_NO,
 LALT_T(KC_TAB),    S(KC_1),   S(KC_2),    S(KC_3),    S(KC_4),  S(KC_5),         S(KC_6),    S(KC_7),    S(KC_8), S(KC_BSLS),         KC_BSLS, KC_TRNS,
 LCTL_T(KC_ESC),     KC_GRV, S(KC_GRV), S(KC_MINS),     KC_EQL,  KC_MINS,       S(KC_EQL),    S(KC_9),    S(KC_0),    KC_LBRC, LGUI_T(KC_RBRC), KC_TRNS,
-	   KC_TRNS, S(KC_SCLN),   KC_SCLN,    KC_QUOT, S(KC_QUOT),  KC_SLSH,         KC_COMM, S(KC_LBRC), S(KC_RBRC),     KC_DOT,      S(KC_SLSH), KC_TRNS,
+	   KC_TRNS, S(KC_SCLN),   KC_SCLN,    KC_QUOT, S(KC_QUOT),  KC_SLSH,         KC_COMM, S(KC_LBRC), S(KC_RBRC),     S(KC_COMM),      S(KC_DOT), KC_TRNS,
 
 			      KC_NO,   KC_NO,   KC_NO,   KC_NO,                                 KC_NO,   KC_NO,   KC_NO,   KC_NO,
 
