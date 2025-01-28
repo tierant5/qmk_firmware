@@ -26,7 +26,7 @@
 #define FORCE_NKRO
 
 #undef  TAPPING_TERM
-#define TAPPING_TERM 100
+#define TAPPING_TERM 200
 // #define TAPPING_TERM_PER_KEY
 
 /* #ifdef CRT0_EXTRA_CORES_NUMBER */
