@@ -91,7 +91,7 @@ KC_TRNS,        KC_F1,        KC_F2,        KC_F3,        KC_F4,  KC_F5,    KC_F
   KC_NO,          KC_NO,          KC_NO,    KC_NO,          KC_NO,      KC_NO,      KC_NO,       KC_NO,   KC_NO,   KC_NO,          KC_NO,   KC_NO,
 KC_TRNS,     KC_MS_LEFT,     KC_MS_DOWN, KC_MS_UP,    KC_MS_RIGHT, KC_MS_BTN1,    KC_MPRV, TD(DANCE_2), KC_VOLD, KC_VOLU,        KC_MNXT, KC_TRNS,
 KC_TRNS, LGUI_T(KC_TAB), LALT_T(KC_ESC),  KC_LSFT, LCTL_T(KC_TAB), KC_MS_BTN2,    KC_LEFT,     KC_DOWN,   KC_UP, KC_RGHT, LGUI_T(KC_INS), KC_TRNS,
-KC_TRNS,         KC_PWR,    TD(DANCE_1),  KC_BRID,        KC_BRIU, KC_MS_BTN3,    KC_HOME,     KC_PGDN, KC_PGUP,  KC_END,        KC_SCRL, KC_TRNS,
+KC_TRNS,         KC_PWR,    TD(DANCE_1),  KC_BRID,        KC_BRIU, KC_MS_BTN3,    KC_HOME,     KC_PGDN, KC_PGUP,  KC_END,        KC_PSCR, KC_SCRL,
 
 			      KC_NO,   KC_NO,   KC_NO,   KC_NO,                                 KC_NO,   KC_NO,   KC_NO,   KC_NO,
 
