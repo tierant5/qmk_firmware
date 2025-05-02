@@ -465,3 +465,7 @@ distclean_userspace: clean
 	rm -f $(QMK_USERSPACE)/*.bin $(QMK_USERSPACE)/*.hex $(QMK_USERSPACE)/*.uf2
 	echo 'done.'
 endif
+
+.PHONY:
+ka360:
+	$(MAKE) converter/adafruit_rp2040_usbh:ka360:uf2

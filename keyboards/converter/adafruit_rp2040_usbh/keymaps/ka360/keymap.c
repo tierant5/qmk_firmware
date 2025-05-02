@@ -121,6 +121,17 @@ enum {
     MORE_TAPS
 };
 
+uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LALT_T(KC_S):
+            // add some additonal delay for 'S' key homerow mod
+            // specifically fixes typing 'test' opening a terminal in Hyprland (Alt+E)
+            return TAPPING_TERM + 50;
+        default:
+            return TAPPING_TERM;
+    }
+}
+
 static tap dance_state[3];
 
 uint8_t dance_step(tap_dance_state_t *state);
