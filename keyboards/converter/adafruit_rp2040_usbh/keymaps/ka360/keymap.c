@@ -61,7 +61,7 @@ LCTL_T(KC_ESC), /*LGUI_T*/(KC_A),    LALT_T(KC_S),  LSFT_T(KC_D),   LCTL_T(KC_F)
 
                            KC_NO,                    KC_NO,                                  KC_NO,                    KC_NO,
                            KC_NO,                    KC_NO,                                  KC_NO,                    KC_NO,
-			             KC_BSPC,             LT(1,KC_DEL),                         LT(2,KC_ENTER),                   KC_SPC),
+			             KC_BSPC,             LT(1,KC_DEL),                         LT(2,KC_ENTER),                   LT(3,KC_SPC)),
 
 [1] = LAYOUT_ka360(
 	     KC_NO,      KC_NO,     KC_NO,      KC_NO,      KC_NO,    KC_NO,           KC_NO,      KC_NO,      KC_NO,      KC_NO,           KC_NO,   KC_NO,
@@ -73,7 +73,7 @@ LCTL_T(KC_ESC),     KC_GRV, S(KC_GRV), S(KC_MINS),     KC_EQL,  KC_MINS,       S
 
                            KC_NO,                    KC_NO,                            KC_NO,                    KC_NO,
                            KC_NO,                    KC_NO,                            KC_NO,                    KC_NO,
-			             KC_TRNS,                  KC_TRNS,                   LT(3,KC_ENTER),                  KC_TRNS),
+			             KC_TRNS,                  KC_TRNS,                   KC_TRNS,                  KC_TRNS),
 
 [2] = LAYOUT_ka360(
   KC_NO,        KC_NO,        KC_NO,        KC_NO,        KC_NO,  KC_NO,    KC_NO,          KC_NO,          KC_NO,          KC_NO,           KC_NO,   KC_NO,
@@ -85,7 +85,7 @@ KC_TRNS,        KC_F1,        KC_F2,        KC_F3,        KC_F4,  KC_F5,    KC_F
 
                            KC_NO,                    KC_NO,                            KC_NO,                    KC_NO,
                            KC_NO,                    KC_NO,                            KC_NO,                    KC_NO,
-			             KC_TRNS,             LT(3,KC_DEL),                          KC_TRNS,                 KC_TRNS),
+			             KC_TRNS,             KC_TRNS,                          KC_TRNS,                 KC_TRNS),
 
 [3] = LAYOUT_ka360(
   KC_NO,          KC_NO,          KC_NO,    KC_NO,          KC_NO,      KC_NO,      KC_NO,       KC_NO,   KC_NO,   KC_NO,          KC_NO,   KC_NO,
